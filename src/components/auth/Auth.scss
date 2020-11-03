@@ -1,0 +1,23 @@
+.sign-in {
+	&#firebaseui_container, .firebaseui-container, .firebaseui-card-content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+		padding: 0;
+
+		height: 100vh;
+		flex-basis: 728px;
+	}
+
+	form {
+		position: static;
+		bottom: unset;
+		height: unset;
+
+		padding: 1em 2em calc(1em - 15px) 2em;
+		justify-content: center;
+		flex-basis: 500px;
+		flex-shrink: 0;
+	}
+}
